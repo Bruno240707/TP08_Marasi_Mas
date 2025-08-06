@@ -8,7 +8,7 @@ const Home = () => {
         <div className="hero-content">
           <h1>Descubrí lo mejor en Joyería, Moda y Tecnología</h1>
           <p>Elegancia, estilo y la última innovación en un solo lugar.</p>
-          <Link to="/productos" className="btn-primary">Ver Productos</Link>
+          <Link to="/Productos/Todos" className="btn-primary">Ver Productos</Link>
         </div>
       </section>
 
@@ -16,24 +16,24 @@ const Home = () => {
         <h2>Categorías Destacadas</h2>
         <div className="category-grid">
           <div className="category-card">
-            <img src="/assets/joyeria.jpg" alt="Joyería" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFxDGYqquXeotGU5c0c0zq_Kl6QrhEXkBqA&s" alt="Joyería" />
             <h3>Joyería</h3>
-            <Link to="/productos/joyeria" className="btn-secondary">Ver más</Link>
+            <Link to="/Productos/jewelery" className="btn-secondary">Ver más</Link>
           </div>
           <div className="category-card">
-            <img src="/assets/ropa.jpg" alt="Ropa" />
+            <img src="https://elonce-media.elonce.com/fotos-nuevo/2022/10/05/o_1664998193.jpg" alt="Ropa" />
             <h3>Ropa de Hombre</h3>
-            <Link to="/productos/ropa" className="btn-secondary">Ver más</Link>
+            <Link to="/Productos/men's clothing" className="btn-secondary">Ver más</Link>
           </div>
           <div className="category-card">
-            <img src="/assets/ropa.jpg" alt="Ropa" />
+            <img src="https://www.infotextil.com.ar/wp-content/uploads/2024/03/b-20.jpg" alt="Ropa" />
             <h3>Ropa de Mujer</h3>
-            <Link to="/productos/ropa" className="btn-secondary">Ver más</Link>
+            <Link to="/Productos/women's clothing" className="btn-secondary">Ver más</Link>
           </div>
           <div className="category-card">
-            <img src="/assets/electronicos.jpg" alt="Electrónicos" />
+            <img src="https://www.thenocgroup.com/wp-content/uploads/2023/03/dispositivos_ectronicos_thenoc.jpg" alt="Electrónicos" />
             <h3>Electrónicos</h3>
-            <Link to="/productos/electronicos" className="btn-secondary">Ver más</Link>
+            <Link to="/Productos/electronics" className="btn-secondary">Ver más</Link>
           </div>
         </div>
       </section>
