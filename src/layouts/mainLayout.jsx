@@ -2,11 +2,11 @@ import { Link, Outlet } from "react-router-dom";
 import Footer from "../componentes/footer/footer";
 import Navbar from "../componentes/header/navbar";
 
-const MainLayout = ({marcas}) => {
+const MainLayout = ({categorias}) => {
 
     return (
         <>
-            <Navbar marcas={marcas}/>
+            <Navbar categorias={categorias}/>
     
             <Outlet></Outlet>
 

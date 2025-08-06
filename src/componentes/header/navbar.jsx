@@ -1,9 +1,7 @@
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
-const Navbar = ({marcas}) => {
-
-    console.log(marcas)
+const Navbar = ({categorias}) => {
 
   return (
     <nav className="navbar">
@@ -17,7 +15,7 @@ const Navbar = ({marcas}) => {
       </button>
 
       <ul>
-        <Link to="/Home"><p>Home</p></Link>
+        <Link to="/"><p>Home</p></Link>
 
         <Link to="/QuienesSomos"><p>Quienes somos</p></Link>
 
@@ -27,10 +25,10 @@ const Navbar = ({marcas}) => {
                 
                 
 
-                <Link to="/productos">Todos</Link>
-                {marcas.map((m, key) => (
+                <Link to="/productos/Todos">Todos</Link>
+                {categorias.map((c) => (
                     <>
-                        <Link to={"/Productos/" + key} > {m} </Link>
+                        <Link to={"/Productos/" + c} > {c} </Link>
                     </>
                 ))}
             </div>
