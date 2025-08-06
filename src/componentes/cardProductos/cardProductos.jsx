@@ -1,4 +1,5 @@
 import "./cardProductos.css";
+import { Link } from "react-router-dom";
 
 const CardProductos = ({ productos, categoria }) => {
   const productosMostrar =
@@ -15,7 +16,12 @@ const CardProductos = ({ productos, categoria }) => {
             <div className="producto-info">
               <h3>{p.title}</h3>
               <p className="producto-precio">${p.price}</p>
-              <button className="btn-comprar">Comprar</button>
+              <div className="producto-actions">
+                <button className="btn-comprar">Comprar</button>
+                <Link to={`/ProductoDetalle/${p.id}`} className="btn-detalles">
+                  Ver detalles
+                </Link>
+              </div>
             </div>
           </div>
         ))

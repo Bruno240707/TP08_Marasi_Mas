@@ -8,6 +8,7 @@ import Home from './pages/Home/Home';
 import QuienesSomos from "./pages/QuienesSomos/QuienesSomos";
 import Contacto from "./pages/Contacto/Contacto";
 import Productos from "./pages/Productos/Productos";
+import ProductoDetalle from "./pages/ProductoDetalle/ProductoDetalle";
 
 function App() {
 
@@ -46,7 +47,8 @@ function App() {
             <Route index element={<Home />}/>
             <Route path="/QuienesSomos" element={<QuienesSomos/> }></Route>
             <Route path="/Contacto" element={<Contacto/> }></Route>
-            <Route path="/Productos/:Categoria" element={<Productos productos={productos} categorias={categorias}/>}/>
+            <Route path="/Productos/:Categoria" element={<Productos productos={productos} categorias={categorias}/> }/>
+            <Route path="/ProductoDetalle/:idProducto" element={<ProductoDetalle productos={productos}/> }/>
           </Route>
       </Routes>
     </>

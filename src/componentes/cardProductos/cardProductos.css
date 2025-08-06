@@ -15,6 +15,44 @@
     justify-content: space-between;
     transition: transform 0.3s ease;
   }
+
+  .producto-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .btn-comprar,
+  .btn-detalles {
+    padding: 10px 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .btn-comprar {
+    background-color: #00bcd4;
+    color: #fff;
+  }
+  
+  .btn-comprar:hover {
+    background-color: #0097a7;
+  }
+  
+  .btn-detalles {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .btn-detalles:hover {
+    background-color: #444;
+  }
+  
   
   .producto-card:hover {
     transform: scale(1.05);
