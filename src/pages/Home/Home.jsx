@@ -50,17 +50,17 @@ const Home = () => {
         <h2>¿Por qué elegirnos?</h2>
         <div className="benefit-grid">
           <div className="benefit-item">
-            <img src="/assets/envio.svg" alt="Envíos rápidos" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy_DyK03gkh3Dlm1GVqHDEMztBvl1SBCNGNA&s" alt="Envíos rápidos" />
             <h3>Envíos Rápidos</h3>
             <p>Llegamos a todo el país con la mejor logística.</p>
           </div>
           <div className="benefit-item">
-            <img src="/assets/seguridad.svg" alt="Pago seguro" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBEsUxhP6T3ZHydB-oHEUPGIi5zfkPwrsgRQ&s" alt="Pago seguro" />
             <h3>Pago Seguro</h3>
             <p>Protegemos tus compras con los mejores sistemas.</p>
           </div>
           <div className="benefit-item">
-            <img src="/assets/calidad.svg" alt="Calidad garantizada" />
+            <img src="https://img.freepik.com/vector-premium/sello-calidad-premium-garantizado_102602-100.jpg" alt="Calidad garantizada" />
             <h3>Calidad Garantizada</h3>
             <p>Productos seleccionados con altos estándares.</p>
           </div>
